@@ -1,0 +1,16 @@
+.conteiner-card__label{
+    position: absolute;
+    bottom: 90px;
+    right: 0;
+}
+.content__card-label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgba(0,0,0,0.8);
+    color: white;
+    font-size: 12px;
+    font-weight: bolder;
+    height: 40px;
+    padding: 0px 50px;
+}

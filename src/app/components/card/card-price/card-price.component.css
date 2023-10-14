@@ -1,0 +1,36 @@
+.conteiner__card-price{
+position: absolute;
+bottom: 0px;
+left: 0px;
+
+display: flex;
+flex-direction: column;
+
+width: 100%;
+height: 70px;
+background-color:rgba(0,0,0,0.8);
+color: antiquewhite;
+padding: 10px;
+}
+.title__card-price{
+    margin-bottom: 3px;
+}
+.valor__card-price{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.valor-console__card-price{
+    display: flex;
+    flex-direction: row;
+}
+.valor-console__card-price > span{
+    font-weight: bolder;
+    color:aqua;
+    margin-right: 10px;
+}
+.valor-real__card-price{
+    display: flex;
+    justify-content:right
+}
